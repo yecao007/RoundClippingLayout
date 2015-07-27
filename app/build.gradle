@@ -1,0 +1,12 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.github.yanglw.android.roundrect"
+        minSdkVersion 8
+        targetSdkVersion 19
+    }
+}
